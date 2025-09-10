@@ -154,11 +154,13 @@ body {
 .hero-buttons {
     display: flex;
     gap: 1rem;
+    margin-bottom: 0;
 }
 
-.job-market-notice {
+.hero-text .job-market-notice {
     font-size: 1.1rem;
-    margin-top: 2.5rem;
+    margin-top: 2.5rem !important;
+    margin-bottom: 0;
     color: #f39c12;
     font-weight: 600;
     line-height: 1.2;
@@ -604,6 +606,11 @@ section {
     
     .hero-buttons {
         justify-content: center;
+    }
+    
+    .hero-text .job-market-notice {
+        margin-top: 2rem !important;
+        text-align: center;
     }
 }
 
