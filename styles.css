@@ -84,6 +84,24 @@ body {
     width: 100%;
 }
 
+.cv-link {
+    background-color: #3498db;
+    color: white !important;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.cv-link:hover {
+    background-color: #2980b9;
+    color: white !important;
+    transform: translateY(-1px);
+}
+
+.cv-link::after {
+    display: none;
+}
+
 .hamburger {
     display: none;
     flex-direction: column;
